@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link href="../assets/css/test.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../assets/css/InsideArticle.css">
 </head>
 
 
@@ -18,10 +19,10 @@
 
     <main>
         <div class="container text-center mt-5">
-            <div class="row">
+            <div class="row gap-5">
 
                 <!-- Photo -->
-                <div class="col-8 border">
+                <div class="col-lg-7 bg-light">
 
                     <!-- Carousel de photo -->
                     <div id="carouselExampleIndicators" class="carousel slide">
@@ -35,21 +36,64 @@
                                     alt="Homme tenant le Snowboard">
                             </div>
                         </div>
-                        <div class="d-flex text-center w-50">
+                        <div class="d-flex text-center w-50 mt-2">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"><img
+                                class="active border border-0" aria-current="true" aria-label="Slide 1"><img
                                     src="../assets/img/Snowboard 1-b.jpg" class="d-block w-100 ratio ratio-1x1"
                                     alt="Homme tenant le Snowboard"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2"><img src="../assets/img/Snowboard 1-C.jpg" class="d-block w-100"
-                                    alt="Homme tenant le Snowboard"></button>
+                                aria-label="Slide 2"><img src="../assets/img/Snowboard 1-C.jpg"
+                                    class="PasdeBorder w-100" alt="Homme tenant le Snowboard"></button>
                         </div>
                     </div>
                 </div>
 
                 <!-- Description -->
-                <div class="col-4 border">
-                    Column
+                <div class="col-lg-4 bg-light">
+                    <div class="mt-5">
+                        <p class="h3 d-flex justify-content-start">Snowboard Noir NordNoir
+                        </p>
+                        <p class="h5 d-flex justify-content-start">Quantité restante: 15</p>
+                        <p class="d-flex justify-content-start mt-4">Le NordNoir est un snowboard all-mountain conçu
+                            pour
+                            les riders exigeants qui cherchent à
+                            allier
+                            style épuré et performance technique. Son revêtement noir mat capte la lumière comme la
+                            poudreuse capte vos courbes : avec finesse et précision.</p>
+                        <p class="d-flex justify-content-start mt-5 mb-3"><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                        <p class="d-flex justify-content-start mt-5 mb-5 h5 text-danger">50€</p>
+                        <div class="d-flex justify-content-start mb-4 gap-1">
+                            <button class="Taille">42</button><button class="Taille">44</button><button
+                                class="Taille">46</button><button class="Taille">48</button>
+                        </div>
+
+                        <button type="button" class="text-center AjoutPanier text-light border border-0"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">Ajouter au
+                            panier</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Achat comfirmé !</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Votre achat à bien été pris en compte.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
