@@ -1,0 +1,58 @@
+.Taille {
+  width: 3rem;
+  height: 2.5rem;
+}
+
+.AjoutPanier {
+  width: 26rem;
+  height: 3rem;
+  text-align: center;
+  background-color: rgb(61, 168, 61);
+  border: 0px;
+}
+
+.AjoutPanier:hover {
+  background-color: rgb(36, 102, 36);
+}
+
+.Taille:hover {
+  background-color: rgb(61, 168, 61);
+  color: white;
+  border: 0px;
+}
+
+.Article {
+  width: 20rem;
+}
+
+.AjoutPanierAccueil {
+  background-color: rgb(61, 168, 61);
+  color: white;
+  border: 0px;
+}
+
+.carousel {
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.MonPanier {
+  color: rgb(61, 168, 61);
+}
+
+.blanc {
+  background-color: white;
+}
+
+.textcenter {
+  margin-top: 20%;
+}
+
+/*# sourceMappingURL=InsideArticle.css.map */
+.navcolor {
+  background-color: #434343;
+}

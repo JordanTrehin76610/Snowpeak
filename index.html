@@ -7,47 +7,62 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="shortcut icon" href="assets/img/Snowpeak_Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="InsideArticle.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 
+    <header>
 
-    <div class="container">
-        <div class="row gap-lg-5">
-            <div class="col-4 text-right">
-                <img class="m-0" src="assets/img/Snowpeak_Logo.png" alt="logo Snowpeak">
-            </div>
-            <div class="col-7 text-right">
-                <h1 class="mt-5 mx-5 px-3">Snowpeak</h1>
-            </div>
-        </div>
-    </div>
-    <!-- nav -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid justify-content-center ">
-            <a class="navbar-brand " href="#"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                    <a class="nav-link" href="../pages/Ski.html">Ski</a>
-                    <a class="nav-link" href="../pages/Snowboard.html">Snowboard</a>
-                    <a class="nav-link" href="../pages/Chaussure.html">Chaussures</a>
-                    <a class="nav-link" href="contact.html">Contact</a>
-                    <a class="nav-link" href="#">Panier</a>
-
-                    <a class="nav-link disabled" aria-disabled="true"></a>
+        <div class="" style="background-image: url(assets/img/fond-de-conception-de-texture-de-bois-de-chene.jpg);">
+            <div class="container">
+                <div class="row gap-lg-5">
+                    <div class="col-4 text-right">
+                        <img class="m-0" src="assets/img/Snowpeak_Logo.png" alt="logo Snowpeak">
+                    </div>
+                    <div class="col-7 text-right">
+                        <h1 class="mt-5 mx-5 px-3">Snowpeak</h1>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
+
+        <nav class="navbar navbar-expand-lg navcolor navbar-dark">
+            <div class="container-fluid justify-content-center ">
+                <a class="navbar-brand " href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link text-light" href="../pages/Ski.html">Ski</a>
+                        <a class="nav-link text-light" href="../pages/Snowboard.html">Snowboard</a>
+                        <a class="nav-link text-light" href="../pages/Chaussure.html">Chaussures</a>
+                        <a class="nav-link text-light" href="contact.html">Contact</a>
+                        <a class="nav-link text-light" href="../pages/Panier.html">Panier<span
+                                class="position-absolute top-25 start-75 translate-middle badge rounded-pill bg-danger d-lg-inline d-none">
+                                2
+                                <span class="visually-hidden">unread messages</span>
+                            </span></a>
+                        <a class="nav-link disabled" aria-disabled="true"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
     <!-- caroussel -->
-    <div id="carouselExample" class="carousel slide w-50-lg w-md-50" style="height: 50%;">
+    <div id="carouselExample" class="carousel slide w-75 mx-auto">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="assets/img/Snowboard 1-b.jpg" class="d-block w-100" alt="...">
@@ -69,58 +84,83 @@
         </button>
     </div>
     <!-- card -->
-    <div class="row justify-content-evenly">
-        <div class="card" style="width: 18rem;">
-            <img src="assets/img/Snowboard 1-b.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Snowboard</h5>
-                <p class="card-text">Snowboard de compétition
-                    content.</p>
-                <a href="#" class="btn btn-primary">Plus d'info</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="assets/img/Snowboard-In-The-Snow-2008.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Snowboard 3000</h5>
-                <p class="card-text">Le meilleur snowboard </p>
-                <a href="#" class="btn btn-primary">Plus d'info</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="assets/img/images.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Ski d'ébutant</h5>
-                <p class="card-text">Ski pour débutant de très bonne qualité pour débuter sans vous ruiner </p>
-                <a href="#" class="btn btn-primary">Plus d'info</a>
-            </div>
-        </div>
-        <div class="row justify-content-evenly">
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/touring-skis-winter-sports-winter-sports-d7cba9-1024.jpg" class="card-img-top"
-                    alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Ski de Martin Fourcade </h5>
-                    <p class="card-text">Ski profesionnel de Martin Fourcade</p>
-                    <a href="#" class="btn btn-primary">Plus d'info</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/chaussure de sky.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Chaussures head </h5>
-                    <p class="card-text">Chaussure head pour les enfants.</p>
-                    <a href="#" class="btn btn-primary">Plus d'info</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/chaussure de sky 2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Chaussures lange </h5>
-                    <p class="card-text">Chaussures Lange pour adultes</p>
-                    <a href="#" class="btn btn-primary">Plus d'info</a>
+    <div class="container text-center mb-5">
 
-                </div>
+        <div class="row gap-5 justify-content-center mb-3">
+
+            <div class="Article bg-light">
+                <a href="../pages/ArticleSnowboard1.html">
+                    <img src="assets/img/Snowboard 1-b.jpg" class="w-100 height-5rem mt-3"
+                        alt="Homme tenant le Snowboard">
+                    <p class="d-flex justify-content-start mt-4 h5 text-danger">50€</p>
+                    <p class="d-flex justify-content-start mt-4 h5">Snowboard Noir NordNoir</p>
+                    <p class="d-flex justify-content-start mt-4">Snowboard Noir pour habitué de la glisse</p>
+                    <p class="d-flex justify-content-start mt-3"><i class="bi bi-star-fill"></i><i
+                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                            class="bi bi-star-fill"></i></p>
+                </a>
+                <button class="mt-3 AjoutPanierAccueil mb-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Ajouter au panier</button>
+
+            </div>
+
+            <div class="Article bg-light">
+                <img src="assets/img/Snowboard 3-A.jpg" class="w-100 mt-3" alt="Homme tenant le Snowboard">
+                <p class="d-flex justify-content-start mt-3 h5 text-danger">200€</p>
+                <p class="d-flex justify-content-start mt-3 h5">Snowboard Suisse Célaglisseuh</p>
+                <p class="d-flex justify-content-start mt-3">Snowboard pour les montagnes</p>
+                <p class="d-flex justify-content-start mt-3"><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-half"></i></p>
+                <button class="mt-3 AjoutPanierAccueil mb-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Ajouter au panier</button>
+            </div>
+            <div class="Article bg-light">
+                <img src="assets/img/Ski 3-A.jpg" class="w-100 mt-3" alt="Homme tenant le Snowboard">
+                <p class="d-flex justify-content-start mt-4 h5 text-danger">200€</p>
+                <p class="d-flex justify-content-start mt-4 h5">Ski lidl</p>
+                <p class="d-flex justify-content-start mt-4">ski seulement pour les employés lidl
+                </p>
+                <p class="d-flex justify-content-start mt-2"><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i></p>
+                <button class="mt-3 AjoutPanierAccueil mb-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Ajouter au panier</button>
+            </div>
+        </div>
+        <div class="row gap-5 justify-content-center">
+            <div class="Article bg-light">
+                <img src="assets/img/Ski 1-A.jpg" class="w-100 mt-3" alt="Homme tenant le Snowboard">
+                <p class="d-flex justify-content-start mt-5 h5 text-danger">50€</p>
+                <p class="d-flex justify-content-start mt-5 h5">Ski Invisible White</p>
+                <p class="d-flex justify-content-start mt-4">Ski Blanc presque invisible a l'oeil nue</p>
+                <p class="d-flex justify-content-start mt-4"><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i><i
+                        class="bi bi-star"></i></p>
+                <button class="mt-3 AjoutPanierAccueil mb-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Ajouter au panier</button>
+            </div>
+            <div class="Article bg-light">
+                <img src="assets/img/Chaussure-A.jpg" class="w-100 mt-3" alt="Homme tenant le Snowboard">
+                <p class="d-flex justify-content-start mt-2 h5 text-danger">50€</p>
+                <p class="d-flex justify-content-start mt-2 h5">Chaussures Rando</p>
+                <p class="d-flex justify-content-start mt-2">Chaussures de randonnée</p>
+                <p class="d-flex justify-content-start mt-2"><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i></p>
+                <button class="mt-3 AjoutPanierAccueil mb-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Ajouter au panier</button>
+            </div>
+            <div class="Article bg-light">
+                <img src="assets/img/Chaussure-C.jpg" class="w-100 mt-3" alt="Homme tenant le Snowboard">
+                <p class="d-flex justify-content-start mt-2 h5 text-danger">100€</p>
+                <p class="d-flex justify-content-start mt-2 h5">Chaussures Fortiche</p>
+                <p class="d-flex justify-content-start mt-2">Chaussures dqui vous aidera a monter</p>
+                <p class="d-flex justify-content-start mt-2"><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i></p>
+                <button class="mt-3 AjoutPanierAccueil mb-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Ajouter au panier</button>
             </div>
         </div>
     </div>
@@ -176,29 +216,31 @@
 
 
 
-    <footer class="page-footer  mt-auto font-small bg-light pt-5">
-        <h2 class="text-center">Contactez-nous</h2>
-        <h4>Tel:00.00.00.00.00</h4>
-        <h4>Mail:snowpark@rien.fr</h4>
-        <h4>Adresse: Chatillon sur rien</h4>
-        <div class="mb-3">
-            <div class="d-flex">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Prénom</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ginette">
+    <footer class="page-footer mt-auto font-small pt-5 navcolor">
+        <div class="mx-5">
+            <h2 class="text-center text-light">Contactez-nous</h2>
+            <h4 class="text-light">Tel:00.00.00.00.00</h4>
+            <h4 class="text-light">Mail:snowpark@rien.fr</h4>
+            <h4 class="text-light">Adresse: Chatillon sur rien</h4>
+            <div class="mb-3">
+                <div class="d-flex">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label text-light">Prénom</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ginette">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label text-light">Nom</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Boudin">
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Nom</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Boudin">
-                </div>
+                <label for="exampleFormControlInput1" class="form-label text-light">adresse mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-            <label for="exampleFormControlInput1" class="form-label">adresse mail</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Exemple</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            <button class="bg-primary" style="border: none;">Envoyer</button>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label text-light">Exemple</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <button class="bg-primary text-white mt-2" style="border: none;">Envoyer</button>
+            </div>
     </footer>
 
 
