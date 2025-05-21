@@ -13,21 +13,23 @@
     <link rel="stylesheet" href="../assets/css/InsideArticle.css">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header>
 
-        <div class="container">
-            <div class="row gap-lg-5">
-                <div class="col-4 text-right">
-                    <img class="m-0" src="../assets/img/Snowpeak_Logo.png" alt="logo Snowpeak">
-                </div>
-                <div class="col-7 text-right">
-                    <h1 class="mt-5 mx-5 px-3">Snowpeak</h1>
+        <div class="" style="background-image: url(../assets/img/fond-de-conception-de-texture-de-bois-de-chene.jpg);">
+            <div class="container">
+                <div class="row gap-lg-5">
+                    <div class="col-4 text-right">
+                        <img class="m-0" src="../assets/img/Snowpeak_Logo.png" alt="logo Snowpeak">
+                    </div>
+                    <div class="col-7 text-right">
+                        <h1 class="mt-5 mx-5 px-3">Snowpeak</h1>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg navcolor navbar-dark">
             <div class="container-fluid justify-content-center ">
                 <a class="navbar-brand " href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,12 +39,12 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                        <a class="nav-link" href="../pages/Ski.html">Ski</a>
-                        <a class="nav-link" href="../pages/Snowboard.html">Snowboard</a>
-                        <a class="nav-link" href="../pages/Chaussure.html">Chaussures</a>
-                        <a class="nav-link" href="#">Contact</a>
-                        <a class="nav-link" href="../pages/Panier.html">Panier</a>
+                        <a class="nav-link active text-light" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link text-light" href="../pages/Ski.html">Ski</a>
+                        <a class="nav-link text-light" href="../pages/Snowboard.html">Snowboard</a>
+                        <a class="nav-link text-light" href="../pages/Chaussure.html">Chaussures</a>
+                        <a class="nav-link text-light" href="#">Contact</a>
+                        <a class="nav-link text-light" href="../pages/Panier.html">Panier</a>
 
                         <a class="nav-link disabled" aria-disabled="true"></a>
                     </div>
@@ -54,15 +56,15 @@
     <main>
         <p class="h1 text-center mt-5">Panier</p>
 
-        <div class="container text-center">
-            <div class="row mt-5">
-                <div class="col text-success h3">
+        <div class="container text-lg-center ms-lg-auto ms-5">
+            <div class="row mt-5 ms-lg-4">
+                <div class="col-lg-3 text-success h3">
                     <i class="bi bi-1-circle mx-3"></i>Mon panier
                 </div>
-                <div class="col h3"><i class="bi bi-2-circle mx-3"></i>Connexion</div>
-                <div class="col h3"><i class="bi bi-3-circle mx-3"></i>Adresse</div>
-                <div class="col h3"><i class="bi bi-4-circle mx-3"></i>Livraison</div>
-                <div class="col h3"><i class="bi bi-5-circle mx-3"></i>Paiement</div>
+                <div class="col-lg-auto h3"><i class="bi bi-2-circle mx-3"></i>Connexion</div>
+                <div class="col-lg-auto h3"><i class="bi bi-3-circle mx-3"></i>Adresse</div>
+                <div class="col-lg-auto h3"><i class="bi bi-4-circle mx-3"></i>Livraison</div>
+                <div class="col-lg-auto h3"><i class="bi bi-5-circle mx-3"></i>Paiement</div>
             </div>
         </div>
 
@@ -72,32 +74,32 @@
                     <div class="col mt-3 mb-3">
                         Produit (2)
                     </div>
-                    <div class="col mt-3 mb-3">
+                    <div class="col mt-3 mb-3 d-none d-lg-block">
 
                     </div>
-                    <div class="col mt-3 mb-3">
+                    <div class="col mt-3 mb-3 d-none d-lg-block">
                         Disponibilité
                     </div>
-                    <div class="col mt-3 mb-3">
+                    <div class="col mt-3 mb-3 d-none d-lg-block">
                         Quantité
                     </div>
-                    <div class="col mt-3 mb-3">
+                    <div class="col mt-3 mb-3 d-none d-lg-block">
                         Prix
                     </div>
-                    <div class="col mt-3 mb-3">
+                    <div class="col mt-3 mb-3 d-none d-lg-block">
                     </div>
                 </div>
                 <div class="row bg-white text-center pb-4 pt-2">
-                    <div class="col">
+                    <div class="col-lg-2">
                         <img src="../assets/img/Chaussure-A.jpg" alt="Article Chaussure Rando" class="w-50">
                     </div>
-                    <div class="col">
+                    <div class="col-lg-2">
                         <p class="h5 textcenter">Chaussure Rando</p>
                     </div>
                     <div class="col">
                         <p class="text-success textcenter"><i class="bi bi-circle-fill"></i>En stock</p>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-2">
                         <select class="form-select textcenter w-50 mx-auto" aria-label="Default select example">
                             <option selected>1</option>
                             <option value="1">2</option>
@@ -118,16 +120,16 @@
                     <hr>
                 </div>
                 <div class="row bg-white text-center pb-4">
-                    <div class="col">
+                    <div class="col-lg-2">
                         <img src="../assets/img/Chaussure-C.jpg" alt="Article Chaussure Rando" class="w-50">
                     </div>
-                    <div class="col">
+                    <div class="col-lg-2">
                         <p class="textcenter h5">Chaussure Fortiche</p>
                     </div>
                     <div class="col">
                         <p class="text-success textcenter"><i class="bi bi-circle-fill"></i>En stock</p>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-2">
                         <select class="form-select textcenter w-50 mx-auto" aria-label="Default select example">
                             <option selected>1</option>
                             <option value="1">2</option>
@@ -154,14 +156,14 @@
                     <div class="col">
 
                     </div>
-                    <div class="col">
+                    <div class="col-lg-2">
                         <p class="text-danger h5">Total article:</p>
                     </div>
-                    <div class="col h5">
+                    <div class="col-lg-2 h5">
                         2
                     </div>
-                    <div class="col">
-                        <p class=" h5 text-danger">Prix total:</p>
+                    <div class="col-lg-2">
+                        <p class="h5 text-danger">Prix total:</p>
                     </div>
                     <div class="col">
                         <p class="h5 text-danger">150€</p>
@@ -178,7 +180,7 @@
                     </div>
                     <div class="col-4">
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4">
                         <button type="button" class="text-center AjoutPanier text-light border border-0 w-100 h5"
                             data-bs-toggle="modal" data-bs-target="#exampleModal">Valider mon panier</button>
                     </div>
@@ -186,33 +188,54 @@
             </div>
         </div>
 
+        <!-- MODAL -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">OH NON !</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Malheur ! C'est un faux site internet ! Vous ne pouvez pas commander et on a récupérer
+                        toutes
+                        vos informations personnelles !
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermé</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 
     </main>
 
-    <footer class="page-footer  mt-auto font-small bg-light pt-5">
+    <footer class="page-footer mt-auto font-small pt-5 navcolor">
         <div class="mx-5">
-            <h2 class="text-center">Contactez-nous</h2>
-            <h4>Tel:00.00.00.00.00</h4>
-            <h4>Mail:snowpark@rien.fr</h4>
-            <h4>Adresse: Chatillon sur rien</h4>
+            <h2 class="text-center text-light">Contactez-nous</h2>
+            <h4 class="text-light">Tel:00.00.00.00.00</h4>
+            <h4 class="text-light">Mail:snowpark@rien.fr</h4>
+            <h4 class="text-light">Adresse: Chatillon sur rien</h4>
             <div class="mb-3">
                 <div class="d-flex">
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Prénom</label>
+                        <label for="exampleFormControlInput1" class="form-label text-light">Prénom</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ginette">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Nom</label>
+                        <label for="exampleFormControlInput1" class="form-label text-light">Nom</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Boudin">
                     </div>
                 </div>
-                <label for="exampleFormControlInput1" class="form-label">adresse mail</label>
+                <label for="exampleFormControlInput1" class="form-label text-light">adresse mail</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Exemple</label>
+                <label for="exampleFormControlTextarea1" class="form-label text-light">Exemple</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                <button class="bg-primary text-white" style="border: none;">Envoyer</button>
+                <button class="bg-primary text-white mt-2" style="border: none;">Envoyer</button>
             </div>
     </footer>
 
