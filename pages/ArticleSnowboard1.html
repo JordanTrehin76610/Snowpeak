@@ -15,12 +15,23 @@
 
 
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header>
-        <div class="d-flex text-right"> <img class="" src="../assets/img/Snowpeak_Logo.png" alt="logo Snowpeak">
-            <h1 class="mx-auto mt-5">Snowpeak</h1>
+
+        <div class="" style="background-image: url(../assets/img/fond-de-conception-de-texture-de-bois-de-chene.jpg);">
+            <div class="container">
+                <div class="row gap-lg-5">
+                    <div class="col-4 text-right">
+                        <img class="m-0" src="../assets/img/Snowpeak_Logo.png" alt="logo Snowpeak">
+                    </div>
+                    <div class="col-7 text-right">
+                        <h1 class="mt-5 mx-5 px-3">Snowpeak</h1>
+                    </div>
+                </div>
+            </div>
         </div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        <nav class="navbar navbar-expand-lg navcolor navbar-dark">
             <div class="container-fluid justify-content-center ">
                 <a class="navbar-brand " href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -30,12 +41,12 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                        <a class="nav-link" href="../pages/Ski.html">Ski</a>
-                        <a class="nav-link" href="../pages/Snowboard.html">Snowboard</a>
-                        <a class="nav-link" href="../pages/Chaussure.html">Chaussures</a>
-                        <a class="nav-link" href="#">Contact</a>
-                        <a class="nav-link" href="#">Panier</a>
+                        <a class="nav-link active text-light" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link text-light" href="../pages/Ski.html">Ski</a>
+                        <a class="nav-link text-light" href="../pages/Snowboard.html">Snowboard</a>
+                        <a class="nav-link text-light" href="../pages/Chaussure.html">Chaussures</a>
+                        <a class="nav-link text-light" href="#">Contact</a>
+                        <a class="nav-link text-light" href="../pages/Panier.html">Panier</a>
 
                         <a class="nav-link disabled" aria-disabled="true"></a>
                     </div>
@@ -45,7 +56,7 @@
     </header>
 
     <main>
-        <div class="container text-center mt-5">
+        <div class="container text-center mt-5 mb-5">
             <div class="row gap-3">
 
                 <!-- Photo -->
@@ -115,7 +126,7 @@
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Close</button>
+                                            data-bs-dismiss="modal">Fermé</button>
                                     </div>
                                 </div>
                             </div>
@@ -126,10 +137,31 @@
         </div>
     </main>
 
-    <footer class="page-footer  mt-3 font-small bg-primary pt-5">
-        <div class="text-center">
-            <p></p>
-        </div>
+    <footer class="page-footer mt-auto font-small pt-5 navcolor">
+        <div class="mx-5">
+            <h2 class="text-center text-light">Contactez-nous</h2>
+            <h4 class="text-light">Tel:00.00.00.00.00</h4>
+            <h4 class="text-light">Mail:snowpark@rien.fr</h4>
+            <h4 class="text-light">Adresse: Chatillon sur rien</h4>
+            <div class="mb-3">
+                <div class="d-flex">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label text-light">Prénom</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ginette">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label text-light">Nom</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Boudin">
+                    </div>
+                </div>
+                <label for="exampleFormControlInput1" class="form-label text-light">adresse mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label text-light">Exemple</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <button class="bg-primary text-white mt-2" style="border: none;">Envoyer</button>
+            </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"

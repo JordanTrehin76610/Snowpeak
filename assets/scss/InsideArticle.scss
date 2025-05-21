@@ -11,6 +11,10 @@
     border: 0px;
 }
 
+.AjoutPanier:hover {
+    background-color: rgb(36, 102, 36);
+}
+
 .Taille:hover {
     background-color: rgb(61, 168, 61);
     color: white;
@@ -30,4 +34,20 @@
 a {
     text-decoration: none;
     color: black
+}
+
+.MonPanier {
+    color: rgb(61, 168, 61);
+}
+
+.blanc {
+    background-color: white;
+}
+
+.textcenter {
+    margin-top: 20%;
+}
+
+.navcolor {
+    background-color: #434343;
 }
